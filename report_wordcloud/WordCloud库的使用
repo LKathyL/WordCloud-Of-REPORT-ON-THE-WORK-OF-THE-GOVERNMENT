@@ -1,0 +1,19 @@
+WordCloud库的使用
+
+一、常用函数
+1、w.generate(txt):
+  向wordcloud对象中加载txt
+2、w.to_file(filename):
+  输出图像文件png或者jpg格式
+
+二、w = wordcloud.WordCloud(<参数>)
+width：生成图片宽度
+height：生成图片长度
+min_font_size:最小字号（默认4号）
+max_font_size:最大字号（根据高度自动调节）
+font_step:字体间步进间隔（默认为1）
+font_path：字体文件路径（默认为None，中文需添加字体路径）
+max_words：显示的最大单词数量
+stop_words：不显示的单词列表
+mask：词云形状（需要用imread()函数引入）
+background_color：背景颜色（默认为黑色）

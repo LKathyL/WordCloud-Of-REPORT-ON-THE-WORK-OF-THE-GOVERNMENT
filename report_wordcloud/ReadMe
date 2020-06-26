@@ -1,0 +1,10 @@
+ReadMe
+
+利用jieba库分词，将文本中出现频率最高的词汇利用wordcloud库生成词汇云图片
+
+report_cn.txt：2020年中国政府工作报告文本
+star.png：词汇云形状模版
+wc：生成的词汇云图片
+wc_report_cn.py:运行代码生成图片
+jieba库的使用
+wordcloud库的使用

@@ -1,0 +1,11 @@
+jieba库的使用
+
+一、常用函数
+1、jieba.lcut(s):
+  精确模式：返回一个列表类型的分词结果
+2、jieba.lcut(s,cut_all=True):
+  全模式，返回一个列表类型的分词结果，存在冗余
+3、jieba.lcut_for_search(s):
+  搜索引擎模式，返回一个列表类型的分词结果，存在冗余
+4、jieba.add_word(w):
+  向分词词典增加新词w
